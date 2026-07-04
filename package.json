@@ -4,7 +4,7 @@
   "description": "",
   "license": "ISC",
   "author": "Piotr Adamowicz",
-  "type": "commonjs",
+  "type": "module",
   "main": "main.js",
   "scripts": {
     "dev": "nodemon main.js",
@@ -12,6 +12,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "chalk": "^5.6.2",
     "express": "^5.2.1",
     "jimp": "^1.6.1",
     "multer": "^2.2.0"
