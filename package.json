@@ -1,0 +1,16 @@
+{
+  "name": "rapberry_node_serev",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Piotr Adamowicz",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
