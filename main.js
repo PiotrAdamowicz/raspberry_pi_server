@@ -3,7 +3,7 @@ const multer = require('multer');
 const { Jimp } = require('jimp');
 const fs = require('fs/promises');
 const path = require('path');
-const crypto = require('crypto');
+const crypto = require('node:crypto');
 
 const app = express();
 const upload = multer({ dest: 'tmp/' });
